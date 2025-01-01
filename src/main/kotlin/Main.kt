@@ -71,8 +71,10 @@ fun main() {
 
     println("  ")
     println("Task 5")
-    for (i in 20 downTo 1 step 2) {
+    for (i in 20 downTo 0 step 2) {
         println("$i ")
+        if(i==2)
+            break
     }
 }
 
